@@ -9,8 +9,8 @@
   <img src={flag} alt="Flag" width="38">
 
   <nav>
-    <a href="/">Skills</a>
     <a href="/">About me</a>
+    <a href="/">Skills</a>
     <img src={logo} alt="Logo" width="58px" height="51.5px">
     <a href="/">Projects</a>
     <a href="/">Contact</a>

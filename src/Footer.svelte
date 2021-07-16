@@ -10,10 +10,10 @@
 
 <footer style="--theme-color: {mainColor}">
   <div>
-    <a href="/"><img src={github} alt=""></a>
-    <a href="/"><img src={linkedin} alt=""></a>
-    <a href="/"><img src={twitter} alt=""></a>
-    <a href="/"><img src={instagram} alt=""></a>
+    <a href="https://github.com/ViGo95"><img src={github} alt=""></a>
+    <a href="https://linkedin.com/in/luis-viñas"><img src={linkedin} alt=""></a>
+    <a href="https://twitter.com/Vi__Go"><img src={twitter} alt=""></a>
+    <a href="https://www.instagram.com/vigo.dev/"><img src={instagram} alt=""></a>
   </div>
 
   <button>
