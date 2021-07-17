@@ -1,4 +1,6 @@
 <script>
+  import Message from "./Message.svelte";
+
   export let mainColor
 
   let github = 'images/github.svg'
@@ -6,17 +8,29 @@
   let instagram = 'images/instagram.svg'
   let twitter = 'images/twitter.svg'
   let mail = 'images/mail.svg'
-</script>
 
-<footer style="--theme-color: {mainColor}">
-  <div>
-    <a href="https://github.com/ViGo95"><img src={github} alt=""></a>
-    <a href="https://linkedin.com/in/luis-viñas"><img src={linkedin} alt=""></a>
-    <a href="https://twitter.com/Vi__Go"><img src={twitter} alt=""></a>
-    <a href="https://www.instagram.com/vigo.dev/"><img src={instagram} alt=""></a>
-  </div>
+  let letMessage = false
 
-  <button>
+  function changeMessage() {
+    console.log('message')
+    letMessage = true
+  }
+
+  </script>
+
+  <footer style="--theme-color: {mainColor}">
+    <div>
+      <a href="https://github.com/ViGo95"><img src={github} alt=""></a>
+      <a href="https://linkedin.com/in/luis-viñas"><img src={linkedin} alt=""></a>
+      <a href="https://twitter.com/Vi__Go"><img src={twitter} alt=""></a>
+      <a href="https://www.instagram.com/vigo.dev/"><img src={instagram} alt=""></a>
+      </div>
+
+      {#if letMessage}
+        <Message></Message>
+      {/if}
+
+  <button on:click="{changeMessage}">
     <img src={mail} alt="">
   </button>
 </footer>
