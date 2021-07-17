@@ -2,10 +2,10 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://vigo95/github.io/portfolio",
+  "homepage": "https://vigo95.github.io/portfolio/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public/build",
+    "deploy": "gh-pages -d public",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
