@@ -4,7 +4,8 @@
   "private": true,
   "homepage": "http://vigo95/github.io/portfolio/",
   "scripts": {
-    "deploy": "",
+    "predeploy": "npm run start",
+    "deploy": "gh-pages-d public/build",
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
