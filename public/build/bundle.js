@@ -1228,8 +1228,8 @@ var app = (function () {
     			create_component(icon0.$$.fragment);
     			t = space();
     			create_component(icon1.$$.fragment);
-    			attr_dev(header, "class", "flex justify-between mt-3 mx-4");
-    			add_location(header, file$3, 9, 0, 176);
+    			attr_dev(header, "class", "svelte-1284okf");
+    			add_location(header, file$3, 8, 0, 174);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1364,9 +1364,9 @@ var app = (function () {
     	let p1;
     	let t10;
     	let div2;
-    	let buttton0;
+    	let button0;
     	let t12;
-    	let buttton1;
+    	let button1;
     	let current;
 
     	icon0 = new Icon({
@@ -1439,44 +1439,44 @@ var app = (function () {
     			p1.textContent = "Comence mi carrera como Administrador de redes en un buen Data Center. Hace poco encontre\r\n       el Desarrollo web y me apasione totalmente... Desde entonces me considero una combinacion de dos mundos.";
     			t10 = space();
     			div2 = element("div");
-    			buttton0 = element("buttton");
-    			buttton0.textContent = "Whatsapp me";
+    			button0 = element("button");
+    			button0.textContent = "Whatsapp me";
     			t12 = space();
-    			buttton1 = element("buttton");
-    			buttton1.textContent = "Send a mail";
+    			button1 = element("button");
+    			button1.textContent = "Send a mail";
     			if (img.src !== (img_src_value = "images/photo.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Presentation");
-    			add_location(img, file$2, 13, 4, 423);
+    			add_location(img, file$2, 13, 4, 437);
     			attr_dev(a0, "href", "/");
-    			add_location(a0, file$2, 15, 10, 535);
-    			add_location(li0, file$2, 15, 6, 531);
+    			add_location(a0, file$2, 15, 10, 549);
+    			add_location(li0, file$2, 15, 6, 545);
     			attr_dev(a1, "href", "/");
-    			add_location(a1, file$2, 16, 10, 620);
-    			add_location(li1, file$2, 16, 6, 616);
+    			add_location(a1, file$2, 16, 10, 634);
+    			add_location(li1, file$2, 16, 6, 630);
     			attr_dev(a2, "href", "/");
-    			add_location(a2, file$2, 17, 10, 707);
-    			add_location(li2, file$2, 17, 6, 703);
+    			add_location(a2, file$2, 17, 10, 721);
+    			add_location(li2, file$2, 17, 6, 717);
     			attr_dev(a3, "href", "/");
-    			add_location(a3, file$2, 18, 10, 793);
-    			add_location(li3, file$2, 18, 6, 789);
-    			attr_dev(ul, "class", "flex flex-col justify-between h-36");
-    			add_location(ul, file$2, 14, 4, 476);
-    			attr_dev(div0, "class", "flex justify-between items-center mx-16 mt-10");
+    			add_location(a3, file$2, 18, 10, 807);
+    			add_location(li3, file$2, 18, 6, 803);
+    			attr_dev(ul, "class", "flex flex-col justify-between h-36 svelte-1xaj81g");
+    			add_location(ul, file$2, 14, 4, 490);
+    			attr_dev(div0, "class", "photo-socials flex justify-between items-center mx-16 mt-10 svelte-1xaj81g");
     			add_location(div0, file$2, 12, 2, 358);
-    			attr_dev(h2, "class", "text-3xl text-dark mx-3");
-    			add_location(h2, file$2, 23, 4, 956);
-    			attr_dev(p0, "class", "text-sm text-dark mx-3 mt-2");
-    			add_location(p0, file$2, 24, 4, 1017);
-    			attr_dev(p1, "class", "text-xs text-secondary mt-4");
-    			add_location(p1, file$2, 25, 4, 1101);
-    			attr_dev(div1, "class", "mx-7 mt-3");
-    			add_location(div1, file$2, 22, 2, 927);
-    			attr_dev(buttton0, "class", "w-36 h-14 pt-4 border-2 border-decorate rounded-md text-center text-decorate font-bold");
-    			add_location(buttton0, file$2, 30, 4, 1442);
-    			attr_dev(buttton1, "class", "w-36 h-14 pt-4 bg-decorate rounded-md text-center text-light font-bold");
-    			add_location(buttton1, file$2, 31, 4, 1573);
-    			attr_dev(div2, "class", "flex justify-between mx-7 mt-5");
-    			add_location(div2, file$2, 29, 2, 1392);
+    			attr_dev(h2, "class", "hi-text text-3xl text-dark mx-3 svelte-1xaj81g");
+    			add_location(h2, file$2, 23, 4, 976);
+    			attr_dev(p0, "class", "tittle-text text-sm text-dark mx-3 mt-2 svelte-1xaj81g");
+    			add_location(p0, file$2, 24, 4, 1045);
+    			attr_dev(p1, "class", "about-text text-xs text-secondary mt-4 svelte-1xaj81g");
+    			add_location(p1, file$2, 25, 4, 1141);
+    			attr_dev(div1, "class", "about mx-7 mt-3 svelte-1xaj81g");
+    			add_location(div1, file$2, 22, 2, 941);
+    			attr_dev(button0, "class", "ws-button w-36 h-14 pt-4 border-2 border-decorate rounded-md text-center text-decorate font-bold svelte-1xaj81g");
+    			add_location(button0, file$2, 30, 4, 1501);
+    			attr_dev(button1, "class", "mail-button w-36 h-14 pt-4 bg-decorate rounded-md text-center text-light font-bold svelte-1xaj81g");
+    			add_location(button1, file$2, 31, 4, 1640);
+    			attr_dev(div2, "class", "buttons flex justify-between mx-7 mt-5 svelte-1xaj81g");
+    			add_location(div2, file$2, 29, 2, 1443);
     			add_location(section, file$2, 10, 0, 296);
     		},
     		l: function claim(nodes) {
@@ -1512,9 +1512,9 @@ var app = (function () {
     			append_dev(div1, p1);
     			append_dev(section, t10);
     			append_dev(section, div2);
-    			append_dev(div2, buttton0);
+    			append_dev(div2, button0);
     			append_dev(div2, t12);
-    			append_dev(div2, buttton1);
+    			append_dev(div2, button1);
     			current = true;
     		},
     		p: noop,
@@ -2118,13 +2118,10 @@ var app = (function () {
     	let hero;
     	let t1;
     	let skills;
-    	let t2;
-    	let tailwindcss;
     	let current;
     	header = new Header({ $$inline: true });
     	hero = new Hero({ $$inline: true });
     	skills = new Skills({ $$inline: true });
-    	tailwindcss = new TailwindCSS({ $$inline: true });
 
     	const block = {
     		c: function create() {
@@ -2134,8 +2131,7 @@ var app = (function () {
     			create_component(hero.$$.fragment);
     			t1 = space();
     			create_component(skills.$$.fragment);
-    			t2 = space();
-    			create_component(tailwindcss.$$.fragment);
+    			attr_dev(main, "class", "svelte-p6p8nu");
     			add_location(main, file, 11, 0, 197);
     		},
     		l: function claim(nodes) {
@@ -2148,8 +2144,6 @@ var app = (function () {
     			mount_component(hero, main, null);
     			append_dev(main, t1);
     			mount_component(skills, main, null);
-    			insert_dev(target, t2, anchor);
-    			mount_component(tailwindcss, target, anchor);
     			current = true;
     		},
     		p: noop,
@@ -2158,14 +2152,12 @@ var app = (function () {
     			transition_in(header.$$.fragment, local);
     			transition_in(hero.$$.fragment, local);
     			transition_in(skills.$$.fragment, local);
-    			transition_in(tailwindcss.$$.fragment, local);
     			current = true;
     		},
     		o: function outro(local) {
     			transition_out(header.$$.fragment, local);
     			transition_out(hero.$$.fragment, local);
     			transition_out(skills.$$.fragment, local);
-    			transition_out(tailwindcss.$$.fragment, local);
     			current = false;
     		},
     		d: function destroy(detaching) {
@@ -2173,8 +2165,6 @@ var app = (function () {
     			destroy_component(header);
     			destroy_component(hero);
     			destroy_component(skills);
-    			if (detaching) detach_dev(t2);
-    			destroy_component(tailwindcss, detaching);
     		}
     	};
 
