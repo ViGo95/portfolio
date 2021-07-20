@@ -18,7 +18,7 @@ function serve() {
 	return {
 		writeBundle() {
 			if (server) return;
-			server = require('child_process').spawn('npm', ['run', 'start', 'build', '--', '--dev'], {
+			server = require('child_process').spawn('npm', ['run', 'start', '--', '--dev'], {
 				stdio: ['ignore', 'inherit', 'inherit'],
 				shell: true
 			});
@@ -41,7 +41,12 @@ export default {
 		svelte({
       preprocess: sveltePreprocess({
         sourceMap: !production,
-        postcss: true,
+        postcss: {
+					plugins: [
+					 require("tailwindcss"),
+					 require("autoprefixer"),
+					],
+				},
       }),
 			compilerOptions: {
 				// enable run-time checks when not in production
