@@ -1,4 +1,4 @@
-main{display:flex;flex-direction:column;justify-content:space-between;height:100%}*,::before,::after{box-sizing:border-box}html{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{font-family:system-ui,
+*,::before,::after{box-sizing:border-box}html{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{font-family:system-ui,
 		-apple-system, /* Firefox supports this but not yet `system-ui` */
 		'Segoe UI',
 		Roboto,
