@@ -11,7 +11,9 @@
     "start": "sirv public --no-clear"
   },
   "devDependencies": {
-    "@iconify/icons-mdi": "^1.1.16",
+    "@iconify/icons-bx": "^1.1.0",
+    "@iconify/icons-file-icons": "^1.1.7",
+    "@iconify/icons-gg": "^1.1.0",
     "@iconify/svelte": "^1.0.4",
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
