@@ -11,10 +11,14 @@
 
 <main>
 	<Header></Header>
+
 	<Hero></Hero>
 
 	<Skills></Skills>
-
 </main>
 
-<TailwindCss />
+<style>
+	main {
+		background-color: #F9FAFB;
+	}
+</style>

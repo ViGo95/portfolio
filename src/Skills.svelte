@@ -22,7 +22,7 @@ import npmIcon from '@iconify/icons-gg/npm';
         <Icon icon={svelteIcon} color="#5E687E" width="24" />
       </a>
       <div class=" w-16 h-2 border border-dark rounded">
-        <div class=" bg-medium h-full w-2/3"></div>
+        <div class=" bg-yellow-500 h-full w-2/3"></div>
       </div>
     </div>
     <div class="flex justify-between items-center w-24">
@@ -30,7 +30,7 @@ import npmIcon from '@iconify/icons-gg/npm';
         <Icon icon={bxlAngular} color="#5E687E" width="32" />
       </a>
       <div class=" w-16 h-2 border border-dark rounded">
-        <div class=" bg-medium h-full w-2/3"></div>
+        <div class=" bg-yellow-500 h-full w-2/3"></div>
       </div>
     </div>
     <div class="flex justify-between items-center w-24">
@@ -38,7 +38,7 @@ import npmIcon from '@iconify/icons-gg/npm';
         <Icon icon={bxlNodejs} color="#5E687E" width="32" />
       </a>
       <div class=" w-16 h-2 border border-dark rounded">
-        <div class=" bg-good h-full w-4/5"></div>
+        <div class=" bg-green-500 h-full w-4/5"></div>
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@ import npmIcon from '@iconify/icons-gg/npm';
         <Icon icon={bxlGit} color="#5E687E" width="32" />
       </a>
       <div class=" w-16 h-2 border border-dark rounded">
-        <div class=" bg-good h-full w-10/12"></div>
+        <div class=" bg-green-500 h-full w-10/12"></div>
       </div>
     </div>
     <div class="flex justify-between items-center w-24">
@@ -58,7 +58,7 @@ import npmIcon from '@iconify/icons-gg/npm';
         <Icon icon={npmIcon} color="#5E687E" width="32" />
       </a>
       <div class=" w-16 h-2 border border-dark rounded">
-        <div class=" bg-good h-full w-9/12"></div>
+        <div class=" bg-green-500 h-full w-9/12"></div>
       </div>
     </div>
   </div>
@@ -70,7 +70,7 @@ import npmIcon from '@iconify/icons-gg/npm';
         <Icon icon={tailwindIcon} color="#5E687E" width="32" />
       </a>
       <div class=" w-16 h-2 border border-dark rounded">
-        <div class=" bg-good h-full w-11/12"></div>
+        <div class=" bg-green-500 h-full w-11/12"></div>
       </div>
     </div>
     <div class="flex justify-between items-center w-24">
@@ -78,7 +78,7 @@ import npmIcon from '@iconify/icons-gg/npm';
         <Icon icon={bxlFigma} color="#5E687E" width="32" />
       </a>
       <div class=" w-16 h-2 border border-dark rounded">
-        <div class=" bg-medium h-full w-2/3"></div>
+        <div class=" bg-yellow-500 h-full w-2/3"></div>
       </div>
     </div>
   </div>
