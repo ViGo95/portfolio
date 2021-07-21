@@ -28,7 +28,7 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
   </div>
   <!-- Botones de contacto -->
   <div class="buttons">
-    <a class="button ws-button">Whatsapp me</a>
+    <a href="/" class="button ws-button">Whatsapp me</a>
     <button class="button mail-button">Send a mail</button>
   </div>
 </section>
