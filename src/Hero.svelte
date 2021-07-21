@@ -28,8 +28,8 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
   </div>
   <!-- Botones de contacto -->
   <div class="buttons">
-    <button class="ws-button">Whatsapp me</button>
-    <button class="mail-button">Send a mail</button>
+    <a class="button ws-button">Whatsapp me</a>
+    <button class="button mail-button">Send a mail</button>
   </div>
 </section>
 
@@ -77,10 +77,14 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
     margin: 20px 28px 0;
   }
 
-  button {
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 144px;
     height: 56px;
     border-radius: 5px;
+    border: solid #0097E6 1px;
     font-weight: bold;
   }
 
