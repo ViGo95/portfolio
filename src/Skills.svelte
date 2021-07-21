@@ -79,7 +79,7 @@ let skillsMock = [
         <Skill
           logo={skill.logo}
           progress={skill.progress}
-          progressColor={skill.progress <= 70
+          progressColor={skill.progress >= 70
             ? progressColor = '#1CB12B'
             : progressColor = '#FF9F1A'} >
         </Skill>
@@ -91,14 +91,14 @@ let skillsMock = [
 
 <style>
   .skills-section {
-    margin: 20px 20px 0;
+    margin: 10% 20px 0;
     color: #5E687E;
   }
 
   .skills-text {
     font-size: 22px;
     font-weight: normal;
-    margin: 0 0 16px 24px;
+    margin: 0 0 4% 24px;
   }
 
   h5 {
@@ -114,7 +114,7 @@ let skillsMock = [
     grid-row: 3;
     grid-gap: 6.5%;
     justify-content: start;
-    margin: 12px 0 20px 0;
+    margin: 12px 0 9% 0;
   }
 
 </style>

@@ -28,7 +28,7 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
   </div>
   <!-- Botones de contacto -->
   <div class="buttons">
-    <a href="/" class="button ws-button">Whatsapp me</a>
+    <a target="__blank" href="http://cutt.ly/WhatsappBarra24" class="button ws-button">Whatsapp me</a>
     <button class="button mail-button">Send a mail</button>
   </div>
 </section>
@@ -38,7 +38,7 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 28px 64px 0;
+    margin: 3.5% 64px 0;
   }
 
   ul {
@@ -50,31 +50,31 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
   }
 
   .about {
-    margin: 12px 28px 0;
+    margin: 1.5% 28px 0;
   }
 
   .hi-text {
     font-size: 25px;
     color: #2F3640;
-    margin: 0px 12px;
+    margin: 5% 12px 0;
   }
 
   .tittle-text {
     font-size: 12px;
     color: #2F3640;
-    margin: 2px 12px 0;
+    margin: 1% 12px 0;
   }
 
   .about-text {
     font-size: 12px;
     color: #5E687E;
-    margin: 16px 0 0;
+    margin: 6% 0 0;
   }
 
   .buttons {
     display: flex;
     justify-content: space-between;
-    margin: 20px 28px 0;
+    margin: 6% 28px 0;
   }
 
   .button {
