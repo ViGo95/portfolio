@@ -10,26 +10,26 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
 
 <section>
   <!-- Foto presentacional y redes sociales -->
-  <div class="photo-socials flex justify-between items-center mx-16 mt-10">
+  <div class="photo-socials">
     <img src="images/photo.svg" alt="Presentation">
-    <ul class="flex flex-col justify-between h-36">
-      <li><a href="/"><Icon icon={bxlGithub} width="22" color="#5E687E" /></a></li>
-      <li><a href="/"><Icon icon={bxlLinkedin} width="22" color="#5E687E" /></a></li>
-      <li><a href="/"><Icon icon={bxlTwitter} width="22" color="#5E687E" /></a></li>
-      <li><a href="/"><Icon icon={bxlInstagram} width="22" color="#5E687E" /></a></li>
+    <ul>
+      <li><a target="__blank" href="https://github.com/ViGo95"><Icon icon={bxlGithub} width="22" color="#5E687E" /></a></li>
+      <li><a target="__blank" href="https://www.linkedin.com/in/luis-vi%C3%B1as/"><Icon icon={bxlLinkedin} width="22" color="#5E687E" /></a></li>
+      <li><a target="__blank" href="https://twitter.com/vigo_dev"><Icon icon={bxlTwitter} width="22" color="#5E687E" /></a></li>
+      <li><a target="__blank" href="https://www.instagram.com/vigo.dev/"><Icon icon={bxlInstagram} width="22" color="#5E687E" /></a></li>
     </ul>
   </div>
   <!-- Un poco acerca de mi -->
-  <div class="about mx-7 mt-3">
-    <h2 class="hi-text text-3xl text-dark mx-3">Hi! ViGo here.</h2>
-    <p class="tittle-text text-sm text-dark mx-3 mt-2">Fullstack Developer & Network Admin</p>
-    <p class="about-text text-xs text-secondary mt-4">Comence mi carrera como Administrador de redes en un buen Data Center. Hace poco encontre
+  <div class="about">
+    <h2 class="hi-text">Hi! ViGo here.</h2>
+    <p class="tittle-text">Fullstack Developer & Network Admin</p>
+    <p class="about-text">Comence mi carrera como Administrador de redes en un buen Data Center. Hace poco encontre
        el Desarrollo web y me apasione totalmente... Desde entonces me considero una combinacion de dos mundos.</p>
   </div>
   <!-- Botones de contacto -->
-  <div class="buttons flex justify-between mx-7 mt-5">
-    <button class="ws-button w-36 h-14 pt-4 border-2 border-decorate rounded-md text-center text-decorate font-bold">Whatsapp me</button>
-    <button class="mail-button w-36 h-14 pt-4 bg-decorate rounded-md text-center text-light font-bold">Send a mail</button>
+  <div class="buttons">
+    <button class="ws-button">Whatsapp me</button>
+    <button class="mail-button">Send a mail</button>
   </div>
 </section>
 
@@ -38,7 +38,7 @@ import bxlInstagram from '@iconify/icons-bx/bxl-instagram';
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 64px 0;
+    margin: 28px 64px 0;
   }
 
   ul {

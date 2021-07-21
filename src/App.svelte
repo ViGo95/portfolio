@@ -4,8 +4,6 @@
 	import Hero from './Hero.svelte';
 	import Skills from './Skills.svelte';
 
-	import TailwindCss from './TailwindCSS.svelte';
-
 </script>
 
 
